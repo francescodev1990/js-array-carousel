@@ -39,6 +39,14 @@ const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 
 next.addEventListener('click', function(){
+
+    console.log(itemActive);
+
+
+
+
+
+    
     //verifico l'elemento attivo (itemActive)
     //incremento il suo valore di 1
     //aggiungere la class active al nuovo elemento dell'array items e la vado a rimuovere da quello precedente
@@ -46,6 +54,7 @@ next.addEventListener('click', function(){
 });
 
 prev.addEventListener('click', function(){
+    console.log(circles);
     //verifico l'elemento attivo (itemActive)
     //decremento il suo valore di 1
     //aggiungere la class active al nuovo elemento dell'array items e la vado a rimuovere da quello precedente
